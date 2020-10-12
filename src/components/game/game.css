@@ -1,0 +1,35 @@
+.game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;  
+ }
+ /* Game Info */
+ul {
+  padding-left: 30px;
+ }
+ .game-info {
+  margin-left: 20px;
+ }
+ .status {
+  margin-bottom: 10px;
+ }
+
+ .title {
+   text-align: center;
+   font-size: 60px;
+   color :#e8ffff;
+ }
+
+ .win{
+   text-align: center;
+   font-size: 30px;
+   color :#e8ffff;
+ }
+
+ .btn{
+   width: 100%;
+ }
